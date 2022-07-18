@@ -1,6 +1,5 @@
 /*common*/
 body {
-  width: 375px;
   margin: 0;
   font-family: 'Dancing Script', cursive;
   font-family: 'Philosopher', sans-serif;
@@ -137,6 +136,12 @@ footer .container {
 footer span {
   display: inline-block;
   align-items: center;
+}
+
+@media (min-width: 600px) {
+  .product li {
+    width: calc((100% - 16px) / 3);
+  }
 }
 
 
