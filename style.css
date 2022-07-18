@@ -1,5 +1,6 @@
 /*common*/
 body {
+  width: 375px;
   margin: 0;
   font-family: 'Dancing Script', cursive;
   font-family: 'Philosopher', sans-serif;
